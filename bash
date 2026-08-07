@@ -49,7 +49,7 @@ Description:
 ================================================================================
 
 Command:
-python ezASRv8_ADAM.py complete -a AA_trimmed.afa -t rooted.tree -m LG+I+G4 --auto
+python ezASRv8_ADAM.py complete -a AA_trimmed.afa -t rooted.tree -m LG+I+G4/Q.3Di.AF 
 
 Description:
 * complete: Executes the full end-to-end ASR workflow (node labeling -> ML ASR -> gap parsimony -> sequence reconciliation -> probability plotting)[cite: 1].
