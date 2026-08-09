@@ -1,8 +1,8 @@
 import os
 import re
 
-input_folder = "/Users/adamchudacek/Documents/Marburg/Bakalarka/Vysledky/populated_glucokinase/PDB/ZALL_COMBINED"
-output_folder = "/Users/adamchudacek/Documents/Marburg/Bakalarka/Vysledky/populated_glucokinase/PDB/ZALL_COMBINED/ZZ_NAMED"
+input_folder = ""
+output_folder = ""
 
 def sanitize_name(name: str) -> str:
     """
