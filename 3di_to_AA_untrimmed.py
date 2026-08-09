@@ -49,9 +49,9 @@ def process_fasta_alignments(three_di_file: str, aa_file: str, output_file: str)
 # ------------------------------
 if __name__ == "__main__":
     # Replace these with your actual file paths if needed
-    three_di_input_file = "/Users/adamchudacek/Documents/Marburg/Bakalarka/Vysledky/populated_glucokinase/mafft/realigned_3di.afa" #untrimmed 3di alignment (mafft output)
-    amino_acid_input_file = "/Users/adamchudacek/Documents/Marburg/Bakalarka/Vysledky/populated_glucokinase/foldmason/result.fasta_aa.fa" #untrimmed amino acid alignment (foldmason output)
-    output_file = "/Users/adamchudacek/Documents/Marburg/Bakalarka/Vysledky/populated_glucokinase/3di_to_AA/AA.afa" #output file path, for me its the AA.afa
+    three_di_input_file = "" #untrimmed 3di alignment (mafft output)
+    amino_acid_input_file = "" #untrimmed amino acid alignment (foldmason output)
+    output_file = "" #output file path, for me its the AA.afa
 
     process_fasta_alignments(three_di_input_file, amino_acid_input_file, output_file)
     print(f"Aligned sequences written to: {output_file}")
