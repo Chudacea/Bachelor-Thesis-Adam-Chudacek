@@ -70,8 +70,8 @@ def get_metrics(nodes, node_data, target_aa):
 # ==========================================
 print("--- Starting GLK Analysis ---")
 
-input_glk = "/Users/adamchudacek/Documents/Marburg/Bakalarka/Vysledky/populated_glucokinase/work/ezASR_results/AA_trimmed.state"
-output_glk = "/Users/adamchudacek/Documents/Marburg/Bakalarka/Vysledky/grouped/glk"
+input_glk = ""
+output_glk = "/"
 os.makedirs(output_glk, exist_ok=True)
 
 path1_nodes = ["Anc_42", "Anc_23", "Anc_17", "Anc_13", "Anc_12", "Anc_11", "Anc_1"]
@@ -147,8 +147,8 @@ plt.close()
 # ==========================================
 print("\n--- Starting FBAA Analysis ---")
 
-input_fbaa = "/Users/adamchudacek/Documents/Marburg/Bakalarka/Vysledky/Imag_BAKA/fbaA/ezASR_results/AA_trimmed.state"
-output_fbaa = "/Users/adamchudacek/Documents/Marburg/Bakalarka/Vysledky/grouped/fbaA"
+input_fbaa = ""
+output_fbaa = ""
 os.makedirs(output_fbaa, exist_ok=True)
 
 pathA_nodes = [
@@ -205,7 +205,7 @@ plt.close()
 # ==========================================
 print("\n--- Generating Plots & Comparisons ---")
 
-output_combined = "/Users/adamchudacek/Documents/Marburg/Bakalarka/Vysledky/grouped"
+output_combined = ""
 os.makedirs(output_combined, exist_ok=True)
 
 # ------------------------------------------
